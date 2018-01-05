@@ -1,6 +1,6 @@
-# import model from database
+# This is a express api project shell
 
-##install
+## install
 
 ```
 # install global
@@ -10,6 +10,8 @@ npm install
 # startup server with nodemon
 npm run dev
 ```
+
+## import model from database
 
 [ref](https://github.com/sequelize/sequelize-auto)
 [serquelize-auto github](https://github.com/sequelize/sequelize-auto)
