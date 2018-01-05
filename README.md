@@ -1,13 +1,16 @@
-# This is a express api project shell
+# This is a express api project shell include unitTest (Jest) and database sequelize simple example
+
+## nodeJS version required: 6.9.4^ 
+
+## EJS version: ES6
 
 ## install
 
 ```
-# install global
 npm install -g mysql2 sequelize-auto nodemon
-# install project node_modules
+
 npm install 
-# startup server with nodemon
+
 npm run dev
 ```
 
