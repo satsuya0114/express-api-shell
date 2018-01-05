@@ -1,0 +1,63 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "jest/globals": true
+  },
+  "plugins": [
+    "jest"
+  ],
+  "extends": "airbnb",
+  "rules": {
+    "no-unused-expressions": 0,
+    "linebreak-style": 0,
+    "camelcase": 0,
+    "no-debugger": 0,
+    "no-console": 0,
+    "max-len": 0,
+    "comma-dangle": [
+      "off"
+    ],
+    "no-template-curly-in-string": [
+      "off"
+    ],
+    "no-unused-vars": [
+      "warn"
+    ],
+    "object-curly-spacing": [
+      "off"
+    ],
+    "padded-blocks": [
+      "off"
+    ],
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allowAfterThis": true
+      }
+    ],
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": [
+          "api/",
+          "util/"
+        ]
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "off"
+    ],
+    "import/extensions": "off",
+    "global-require": "off",
+    "no-bitwise": "off",
+    "no-loop-func": "off",
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error"
+  }
+}

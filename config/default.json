@@ -1,0 +1,31 @@
+{
+    "dev": {
+        "dbConfig": {
+            "host": "mysql-dev.nice-cam.com",
+            "port": 3306,
+            "dbName": "nice_dev",
+            "user": "nicecam20",
+            "password": "nicecamera20",
+            "dialect": "mysql"
+        },
+        "wowza": {
+            "wowzaAddress": "wowza.nice-cam.com",
+            "demoDevice": {
+                "appName": "live",
+                "deviceName": "admin",
+                "devicePwd": "admin1234",
+                "deviceIP": "210.200.12.22",
+                "devicePort": "554",
+                "videoType1": "play1.sdp",
+                "videoType2": "play2.sdp"
+            }
+        }
+    },
+    "unitTest": {
+        "commonService": {
+            "account_mobile_country_code": "+886",
+            "account_mobile": "0953117666",
+            "verify_code": "3310"
+        }
+    }
+}

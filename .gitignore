@@ -1,0 +1,16 @@
+npm-debug.log
+node_modules/
+lib
+test/
+logs/
+.elasticbeanstalk/*
+unitTest/
+
+# Elastic Beanstalk Files
+
+.elasticbeanstalk/*
+
+!.elasticbeanstalk/*.cfg.yml
+
+!.elasticbeanstalk/*.global.yml
+
