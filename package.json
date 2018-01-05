@@ -16,6 +16,7 @@
     "body-parser": "^1.17.2",
     "compression": "^1.7.1",
     "config": "^1.28.1",
+    "cors": "^2.8.4",
     "country-data": "0.0.31",
     "debug": "~2.6.3",
     "express": "^4.15.4",
