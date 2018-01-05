@@ -1,10 +1,13 @@
-# This is a express api project shell include unitTest (Jest) and database sequelize simple example
+# express-api-shell
 
-## nodeJS version required: 6.9.4^ 
+This is a express api project shell include unitTest (Jest) and database sequelize simple example
 
-## EJS version: ES6
+### version 
+* nodeJS required : 6.9.4^ 
+* EJS required : ES6
 
-## install
+
+### install
 
 ```
 npm install -g mysql2 sequelize-auto nodemon
@@ -14,7 +17,7 @@ npm install
 npm run dev
 ```
 
-## import model from database
+### import model from database
 
 [ref](https://github.com/sequelize/sequelize-auto)
 [serquelize-auto github](https://github.com/sequelize/sequelize-auto)
